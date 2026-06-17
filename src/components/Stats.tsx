@@ -47,9 +47,7 @@ export function AboutOoshas() {
         <div className="mb-10">
           <h2
             className="text-[2rem] md:text-[3rem] leading-none text-[#2d2d2d]"
-            style={{
-              fontFamily: "Playfair Display, serif",
-            }}
+           
           >
             About OOSHAS
           </h2>
