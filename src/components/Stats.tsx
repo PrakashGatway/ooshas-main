@@ -39,6 +39,7 @@ export default function Stats() {
 
 
 
+
 export function AboutOoshas() {
   return (
     <section className="bg-white py-16">

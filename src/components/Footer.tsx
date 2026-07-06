@@ -30,9 +30,7 @@ export default function Footer() {
               </p>
 
               <p className="text-gray-200 text-lg leading-relaxed">
-                Ooshas Global 3rd floor, Plot number, 1-C,
-                Raipur Khadar, Sector 126, Noida 201313,
-                Uttar Pradesh
+                105A, first floor, Geetanjali Towers Geetanjali Tower, Ajmer Rd, Jai Ambey Colony, Civil Lines, Jaipur, Rajasthan 302006
               </p>
             </div>
 
@@ -43,18 +41,16 @@ export default function Footer() {
               </h3>
 
               <ul className="space-y-3">
-                {[
-                  "Ooshas Global",
-                  "Ooshas Prep",
-                  "Ooshas Talent",
-                  "Ooshas Visa"
-                ].map((item) => (
-                  <li key={item}>
+                {[{name: "Ooshas Global", link: "https://www.ooshasglobal.com"},
+                {name: "Ooshas Prep", link: "https://www.ooshasprep.com"},
+                {name: "Ooshas Talent", link: "https://www.ooshasprep.com"},
+                {name: "Ooshas Visa", link: "https://www.ooshasglobal.com"}].map((item) => (
+                  <li key={item.name}>
                     <a
-                      href="#"
+                      href={item.link}
                       className="text-gray-200 hover:text-white text-lg"
                     >
-                      {item}
+                      {item.name}
                     </a>
                   </li>
                 ))}
@@ -70,13 +66,12 @@ export default function Footer() {
 
               <ul className="space-y-3">
                 {[
-                  "TGIS",
                   "Working at Ooshas = Fun + Growth!",
                   "Outside In",
                 ].map((item) => (
                   <li key={item}>
                     <a
-                      href="#"
+                      href="https://www.ooshasglobal.com"
                       className="text-gray-200 hover:text-white text-lg"
                     >
                       {item}
@@ -95,19 +90,19 @@ export default function Footer() {
 
               <ul className="space-y-3">
                 {[
-                  "Ooshas Labs",
-                  "Investors",
-                  "Part of Chatter",
-                  "Press",
-                  "Terms & Conditions",
-                  "Privacy Policy",
+                  {name: "Ooshas global", link: "https://www.ooshasglobal.com"},
+                  {name: "Connect with us", link: "https://www.ooshasglobal.com/contact"},
+                  {name: "Career with us", link: "https://www.ooshasglobal.com/careers"},
+                  {name: "Test Preparation", link: "https://www.ooshasprep.com"},
+                  {name: "Terms & Conditions", link: "https://www.ooshasglobal.com/terms"},
+                  {name: "Privacy Policy", link: "https://www.ooshasglobal.com/privacy"}
                 ].map((item) => (
-                  <li key={item}>
+                  <li key={item.name}>
                     <a
-                      href="#"
+                      href={item.link}
                        className="text-gray-200 hover:text-white text-lg"
                     >
-                      {item}
+                      {item.name}
                     </a>
                   </li>
                 ))}
@@ -118,7 +113,7 @@ export default function Footer() {
           {/* Divider */}
           <div className="border-t border-white/10 mt-8 pt-4 flex flex-col lg:flex-row justify-between items-center">
             <p className="text-gray-200 text-base">
-              Copyright © 2026, Ooshas Global. All rights reserved.
+              Copyright © 2026, Ooshas. All rights reserved.
             </p>
             <button
               onClick={() =>

@@ -198,7 +198,7 @@ export function StudyGlobalSection1() {
             </p>
 
             <a
-              href="#"
+              href="https://ooshasglobal.com"
               className="inline-block mt-8 text-[#F36E47] text-2xl font-medium hover:underline"
             >
               www.ooshasglobal.com
@@ -296,7 +296,7 @@ export function StudyGlobalSection2() {
             </p>
 
             <a
-              href="#"
+              href="https://ooshasprep.com"
               className="inline-block mt-8 text-[#F36E47] text-2xl font-medium hover:underline"
             >
               www.ooshasprep.com
