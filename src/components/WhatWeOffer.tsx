@@ -208,7 +208,7 @@ export function StudyGlobalSection1() {
           {/* Right Image */}
           <div className="relative col-span-5 flex justify-center lg:justify-end">
             <img
-              src="./pnn.png"
+              src="/lap.webp"
               alt="Mobile App"
               className="w-full object-contain"
             />
@@ -267,9 +267,9 @@ export function StudyGlobalSection2() {
     <section className="bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-10 items-center min-h-[650px]">
-          <div className="relative col-span-5 flex justify-center lg:justify-start">
+          <div className="relative col-span-5 sm:p-14 mt-6 flex justify-center lg:justify-start">
             <img
-              src="./pnn.png"
+              src="/tab.webp"
               alt="Mobile App"
               className="w-full object-contain"
             />
@@ -278,7 +278,7 @@ export function StudyGlobalSection2() {
           <div className="py-12 col-span-5">
             {/* Logo */}
             <img
-              src="https://ooshasglobal.com/images/newlogo3.png"
+              src="https://www.ooshasprep.com/image/logo.png"
               alt="ooshas global Logo"
               className="h-24 mb-6"
             />
