@@ -29,9 +29,9 @@ export default function Footer() {
                 hello@ooshas.com
               </p>
 
-              <p className="text-gray-200 text-lg leading-relaxed">
+              {/* <p className="text-gray-200 text-lg leading-relaxed">
                 105A, first floor, Geetanjali Towers Geetanjali Tower, Ajmer Rd, Jai Ambey Colony, Civil Lines, Jaipur, Rajasthan 302006
-              </p>
+              </p> */}
             </div>
 
             {/* Products */}
